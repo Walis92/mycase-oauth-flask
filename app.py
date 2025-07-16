@@ -14,6 +14,3 @@ def callback():
     <p>Código: <code>{code}</code></p>
     <p>Copia este código para intercambiarlo por un access_token.</p>
     """
-
-if __name__ == "__main__":
-    app.run(debug=True)
