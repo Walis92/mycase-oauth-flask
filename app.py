@@ -14,3 +14,8 @@ def callback():
     <p>Código: <code>{code}</code></p>
     <p>Copia este código para intercambiarlo por un access_token.</p>
     """
+
+if __name__ != "__main__":
+    app.config["ENV"] = "production"
+else:
+    app.run(host="0.0.0.0", port=5000, debug=True)
